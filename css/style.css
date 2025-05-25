@@ -193,14 +193,14 @@ h1 {
 }
 
 .hero-content-top {
-  background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) 0%, rgba(53, 65, 83, 0) 66.67%), url(/GitHub/first-project/hotels/img/hero-1.png) 0 0/100% auto no-repeat;
+  background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) 0%, rgba(53, 65, 83, 0) 66.67%), url(/img/hero-1.png) 0 0/100% auto no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .hero-content-bottom {
-  background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) 0%, rgba(53, 65, 83, 0) 66.67%), url(/GitHub/first-project/hotels/img/hero-2.png) 0 0/100% auto no-repeat;
+  background: linear-gradient(90deg, rgba(48, 64, 89, 0.84) 0%, rgba(53, 65, 83, 0) 66.67%), url(/img/hero-2.png) 0 0/100% auto no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -209,7 +209,7 @@ h1 {
 .hero-right {
   flex-direction: column;
   justify-content: flex-end;
-  background-image: url(/GitHub/first-project/hotels/img/hero-3.jpg);
+  background-image: url(/img/hero-3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -253,7 +253,6 @@ h1 {
 
 .hero-link {
   display: inline-flex;
-  align-items: center;
   gap: 5px;
   color: #F0BF5F;
   font-weight: 400;
@@ -380,7 +379,7 @@ h1 {
   width: 374px;
   background-color: #ffffff;
   border-radius: 15px;
-  background-image: url(../hotel/img/accom-9.png);
+  background-image: url(/img/accom-9.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
