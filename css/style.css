@@ -42,7 +42,6 @@ img {
 }
 
 body {
-  width: 100%;
   max-width: 1920px;
   font-family: 'Muller', sans-serif;
   background-color: #F1F1F1;
@@ -69,8 +68,8 @@ body {
 }
 
 .container {
-  width: 100%;
-  max-width: 1200px;
+  max-width: 100%;
+  width: 1200px;
   padding: 0;
   margin: 0 auto;
 }
@@ -182,6 +181,7 @@ h1 {
 }
 
 .hero-left {
+  min-width: 573px;
   flex-wrap: wrap;
   width: 50%;
   gap: 24px;
@@ -211,6 +211,7 @@ h1 {
 }
 
 .hero-right {
+  min-width: 573px;
   width: 50%;
   flex-direction: column;
   justify-content: flex-end;
@@ -289,7 +290,8 @@ h1 {
 }
 
 .servises-item {
-  max-width: 573px;
+  width: 49%;
+  min-width: 573px;
 }
 
 .blog-preview {
@@ -303,7 +305,8 @@ h1 {
 }
 
 .blog-preview-text {
-  max-width: 573px;
+  min-height: 179px;
+  min-width: 573px;
   padding: 35px;
   flex-direction: column;
   gap: 5px;
