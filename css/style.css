@@ -42,6 +42,7 @@ img {
 }
 
 body {
+  width: 100%;
   max-width: 1920px;
   font-family: 'Muller', sans-serif;
   background-color: #F1F1F1;
@@ -68,6 +69,7 @@ body {
 }
 
 .container {
+  width: 100%;
   max-width: 1200px;
   padding: 0;
   margin: 0 auto;
