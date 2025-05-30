@@ -68,8 +68,8 @@ body {
 }
 
 .container {
-  max-width: 100%;
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   padding: 0;
   margin: 0 auto;
 }
@@ -334,6 +334,7 @@ h1 {
 /* advantages */
 
 .advantages-items {
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 22px;
 }
