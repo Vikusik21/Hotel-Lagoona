@@ -48,22 +48,6 @@ body {
   padding: 30px 0;
 }
 
-.btn:focus {
-  color: #fff;
-  background-color: #CC9933;
-}
-
-.btn:hover {
-  color: #fff;
-  background-color: #CC9933;
-}
-
-.btn:active {
-  color: #fff;
-  background-color: #A47312;
-  opacity: 0;
-  transition: opacity 0.3s linear;
-}
 
 /* glob */
 
@@ -109,6 +93,13 @@ h1 {
 .section-offset {
   margin: 0;
   margin-bottom: 70px;
+}
+
+/* root */
+
+:root {
+  --light_brown-color: #F0BF5F;
+  --brown-color: #CC9933;
 }
 
 /* header */
@@ -280,6 +271,23 @@ h1 {
 
 .header__btn:active {
   color: #fff;  
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.btn:focus {
+  color: #fff;
+  background-color: #CC9933;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #CC9933;
+}
+
+.btn:active {
+  color: #fff;
+  background-color: #A47312;
   opacity: 0;
   transition: opacity 0.3s linear;
 }
